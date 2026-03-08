@@ -1,6 +1,6 @@
 <div align="center">
 
-![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=28&pause=1000&color=58A6FF&center=true&vCenter=true&width=600&lines=Oi%2C+eu+sou+o+Pedro+Bittencourt+%F0%9F%91%8B;Engenheiro+de+Software;Apaixonado+por+IA+e+Python)
+![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=28&pause=1000&color=58A6FF&center=true&vCenter=true&width=600&lines=Oi%2C+eu+sou+o+Pedro+Bittencourt+%F0%9F%91%8B;Estudante+de+Engenharia+de+Software;Apaixonado+por+tecnologia)
 
 <br/>
 
@@ -18,7 +18,7 @@
 class Pedro:
     nome     = "Pedro Bittencourt"
     area     = "Engenharia de Software"
-    foco     = ["IA Generativa", "Automação", "APIs"]
+    foco     = ["Engenharia de Software, Python, Dados]
     hobbies  = ["codar", "aprender coisas novas", "tomar café ☕"]
 
     def hello(self):
