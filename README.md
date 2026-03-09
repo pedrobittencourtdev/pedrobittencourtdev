@@ -18,7 +18,7 @@
 class Pedro:
     nome     = "Pedro Bittencourt"
     area     = "Engenharia de Software"
-    foco     = ["Engenharia de Software, Python, Dados]
+    foco     = ["Engenharia de Software", "Python", "Dados"]
     hobbies  = ["codar", "aprender coisas novas", "tomar café ☕"]
 
     def hello(self):
@@ -65,6 +65,8 @@ class Pedro:
 | Projeto | Descrição | Tecnologias |
 |---|---|---|
 | [🤖 Bitt.ai](https://github.com/pedrobittencourtdev/bitt-ai) | Chatbot inteligente com memória contextual | Python · Streamlit · Gemini |
+|---|---|---|
+| [⚔️🎲Game War](https://github.com/pedrobittencourtdev/War-game-c-desafio-Estacio-iniciante) | Clássico jogo de tabuleiro War | C |
 
 ---
 
