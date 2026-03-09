@@ -46,9 +46,15 @@ class Pedro:
 ### 📊 GitHub Stats
 
 <div align="center">
-    
-<img height="180em" src="https://github-readme-stats.vercel.app/api?username=pedrobittencourtdev&show_icons=true&theme=tokyonight&hide_border=true&cache_seconds=1800"/>
-<img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=pedrobittencourtdev&layout=compact&theme=tokyonight&hide_border=true&cache_seconds=1800"/>
+
+![Profile Summary](https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=pedrobittencourtdev&theme=tokyonight)
+
+</div>
+
+<div align="center">
+
+![Repos](https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=pedrobittencourtdev&theme=tokyonight)
+![Stats](https://github-profile-summary-cards.vercel.app/api/cards/stats?username=pedrobittencourtdev&theme=tokyonight)
 
 </div>
 
@@ -65,7 +71,7 @@ class Pedro:
 | Projeto | Descrição | Tecnologias |
 |---|---|---|
 | [🤖 Bitt.ai](https://github.com/pedrobittencourtdev/bitt-ai) | Chatbot inteligente com memória contextual | Python · Streamlit · Gemini |
-| [⚔️🎲Game War](https://github.com/pedrobittencourtdev/War-game-c-desafio-Estacio-iniciante) | Clássico jogo de tabuleiro War | C |
+| [⚔️🎲 Game War](https://github.com/pedrobittencourtdev/War-game-c-desafio-Estacio-iniciante) | Clássico jogo de tabuleiro War | C |
 
 ---
 
@@ -83,6 +89,6 @@ class Pedro:
 
 *"Primeiro, resolva o problema. Depois, escreva o código."*
 
-⭐ Se algum projeto te ajudou, deixa uma estrela!
+⭐ Se gostou de algum projeto, deixa uma estrela!
 
 </div>
