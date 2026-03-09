@@ -72,6 +72,7 @@ class Pedro:
 |---|---|---|
 | [🤖 Bitt.ai](https://github.com/pedrobittencourtdev/bitt-ai) | Chatbot inteligente com memória contextual | Python · Streamlit · Gemini |
 | [⚔️🎲 Game War](https://github.com/pedrobittencourtdev/War-game-c-desafio-Estacio-iniciante) | Clássico jogo de tabuleiro War | C |
+|[🚀🎲Projeto final Data Science](https://github.com/pedrobittencourtdev/Projeto-Spacex-Data-Science-IBM)| Criei um modelo de Machine Learning (83% acurácia) para prever o sucesso de pouso da SpaceX | Notebook Jupyter · Python |
 
 ---
 
