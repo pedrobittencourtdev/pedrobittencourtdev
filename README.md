@@ -65,7 +65,6 @@ class Pedro:
 | Projeto | Descrição | Tecnologias |
 |---|---|---|
 | [🤖 Bitt.ai](https://github.com/pedrobittencourtdev/bitt-ai) | Chatbot inteligente com memória contextual | Python · Streamlit · Gemini |
-|---|---|---|
 | [⚔️🎲Game War](https://github.com/pedrobittencourtdev/War-game-c-desafio-Estacio-iniciante) | Clássico jogo de tabuleiro War | C |
 
 ---
