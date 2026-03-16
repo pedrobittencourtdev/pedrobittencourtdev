@@ -88,7 +88,6 @@ class Pedro:
 
 <div align="center">
 
-*"Primeiro, resolva o problema. Depois, escreva o código."*
 
 ⭐ Se gostou de algum projeto, deixa uma estrela!
 
