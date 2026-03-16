@@ -1,0 +1,78 @@
+<svg width="680" height="200" viewBox="0 0 680 200" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <style>
+      @keyframes sparkle {
+        0%,100%{opacity:0;transform:scale(0)} 
+        50%{opacity:1;transform:scale(1)}
+      }
+      @keyframes orbit {
+        from{transform:rotate(0deg) translateX(80px) rotate(0deg)}
+        to{transform:rotate(360deg) translateX(80px) rotate(-360deg)}
+      }
+      @keyframes wand-glow {
+        0%,100%{opacity:.5} 50%{opacity:1}
+      }
+      @keyframes trail {
+        0%{stroke-dashoffset:300;opacity:0}
+        30%{opacity:.8}
+        100%{stroke-dashoffset:0;opacity:0}
+      }
+      .star { animation: sparkle 2s ease-in-out infinite; transform-origin: center; transform-box: fill-box; }
+      .s1{animation-delay:0s}   .s2{animation-delay:.3s} .s3{animation-delay:.6s}
+      .s4{animation-delay:.9s}  .s5{animation-delay:1.2s} .s6{animation-delay:1.5s}
+      .s7{animation-delay:1.8s} .s8{animation-delay:.45s} .s9{animation-delay:.75s}
+      .s10{animation-delay:1.1s} .s11{animation-delay:1.4s} .s12{animation-delay:.2s}
+      .orb { transform-origin: 340px 100px; animation: orbit 4s linear infinite; transform-box: fill-box; }
+      .o2{animation-delay:-1.33s} .o3{animation-delay:-2.66s}
+      .glow { animation: wand-glow 1.5s ease-in-out infinite; }
+      .trail { stroke-dasharray:300; animation: trail 3s ease-out infinite; }
+      .t2{animation-delay:1s} .t3{animation-delay:2s}
+    </style>
+    <filter id="blur2"><feGaussianBlur stdDeviation="2"/></filter>
+    <filter id="blur4"><feGaussianBlur stdDeviation="4"/></filter>
+  </defs>
+
+  <!-- Background glow -->
+  <ellipse cx="340" cy="100" rx="150" ry="60" fill="#7F77DD" opacity=".10" filter="url(#blur4)"/>
+
+  <!-- Magic trails -->
+  <path class="trail"    d="M180 60 Q260 30 340 100 Q420 170 500 140" fill="none" stroke="#FAC775" stroke-width="1.5" opacity=".7"/>
+  <path class="trail t2" d="M500 60 Q420 90 340 100 Q260 110 180 140" fill="none" stroke="#AFA9EC" stroke-width="1"   opacity=".6"/>
+  <path class="trail t3" d="M220 160 Q280 80 340 100 Q400 120 460 50" fill="none" stroke="#9FE1CB" stroke-width="1"   opacity=".5"/>
+
+  <!-- Orbiting orbs -->
+  <g class="orb">   <circle cx="340" cy="20" r="5"   fill="#FAC775" filter="url(#blur2)" opacity=".9"/></g>
+  <g class="orb o2"><circle cx="340" cy="20" r="4"   fill="#AFA9EC" filter="url(#blur2)" opacity=".9"/></g>
+  <g class="orb o3"><circle cx="340" cy="20" r="3.5" fill="#9FE1CB" filter="url(#blur2)" opacity=".9"/></g>
+
+  <!-- Wand -->
+  <g transform="rotate(-35, 260, 130)">
+    <rect x="220" y="126" width="80" height="6" rx="3" fill="#2C2C2A" opacity=".85"/>
+    <rect x="295" y="124" width="12" height="10" rx="2" fill="#4A1B0C" opacity=".8"/>
+    <circle class="glow" cx="222" cy="129" r="7" fill="#FAC775" opacity=".8" filter="url(#blur2)"/>
+    <circle cx="222" cy="129" r="3.5" fill="#FCDE5A" opacity=".95"/>
+  </g>
+
+  <!-- Stars -->
+  <g class="star s1"  transform="translate(80,40)"> <polygon points="0,-7 1.5,-2.5 6,-2.5 2.5,1 4,6 0,3 -4,6 -2.5,1 -6,-2.5 -1.5,-2.5" fill="#FAC775"/></g>
+  <g class="star s2"  transform="translate(140,70)"><polygon points="0,-5 1,-2 4,-2 2,1 3,4 0,2 -3,4 -2,1 -4,-2 -1,-2"               fill="#AFA9EC"/></g>
+  <g class="star s3"  transform="translate(200,30)"><polygon points="0,-7 1.5,-2.5 6,-2.5 2.5,1 4,6 0,3 -4,6 -2.5,1 -6,-2.5 -1.5,-2.5" fill="#9FE1CB"/></g>
+  <g class="star s4"  transform="translate(420,25)"><polygon points="0,-6 1.2,-2.2 5,-2.2 2,1 3,5 0,2.5 -3,5 -2,1 -5,-2.2 -1.2,-2.2"   fill="#FAC775"/></g>
+  <g class="star s5"  transform="translate(490,55)"><polygon points="0,-5 1,-2 4,-2 2,1 3,4 0,2 -3,4 -2,1 -4,-2 -1,-2"               fill="#F4C0D1"/></g>
+  <g class="star s6"  transform="translate(560,35)"><polygon points="0,-7 1.5,-2.5 6,-2.5 2.5,1 4,6 0,3 -4,6 -2.5,1 -6,-2.5 -1.5,-2.5" fill="#AFA9EC"/></g>
+  <g class="star s7"  transform="translate(100,140)"><polygon points="0,-5 1,-2 4,-2 2,1 3,4 0,2 -3,4 -2,1 -4,-2 -1,-2"              fill="#9FE1CB"/></g>
+  <g class="star s8"  transform="translate(160,165)"><polygon points="0,-6 1.2,-2.2 5,-2.2 2,1 3,5 0,2.5 -3,5 -2,1 -5,-2.2 -1.2,-2.2"  fill="#FAC775"/></g>
+  <g class="star s9"  transform="translate(440,170)"><polygon points="0,-7 1.5,-2.5 6,-2.5 2.5,1 4,6 0,3 -4,6 -2.5,1 -6,-2.5 -1.5,-2.5" fill="#AFA9EC"/></g>
+  <g class="star s10" transform="translate(510,150)"><polygon points="0,-5 1,-2 4,-2 2,1 3,4 0,2 -3,4 -2,1 -4,-2 -1,-2"              fill="#9FE1CB"/></g>
+  <g class="star s11" transform="translate(590,160)"><polygon points="0,-6 1.2,-2.2 5,-2.2 2,1 3,5 0,2.5 -3,5 -2,1 -5,-2.2 -1.2,-2.2"  fill="#F4C0D1"/></g>
+  <g class="star s12" transform="translate(600,90)"> <polygon points="0,-7 1.5,-2.5 6,-2.5 2.5,1 4,6 0,3 -4,6 -2.5,1 -6,-2.5 -1.5,-2.5" fill="#FAC775"/></g>
+
+  <!-- Center magic circle -->
+  <circle cx="340" cy="100" r="30" fill="none" stroke="#7F77DD" stroke-width="1"   opacity=".4" stroke-dasharray="4 6"/>
+  <circle cx="340" cy="100" r="18" fill="none" stroke="#FAC775" stroke-width="0.8" opacity=".5" stroke-dasharray="3 5"/>
+  <circle cx="340" cy="100" r="6"  fill="#AFA9EC" opacity=".7" filter="url(#blur2)"/>
+  <circle cx="340" cy="100" r="3"  fill="#FCDE5A" opacity=".95"/>
+
+  <!-- Lumos text -->
+  <text x="340" y="190" text-anchor="middle" font-family="Georgia, serif" font-size="13" fill="#AFA9EC" opacity=".8" letter-spacing="4">&#10022;  L U M O S  &#10022;</text>
+</svg>
