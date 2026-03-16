@@ -2,9 +2,6 @@
 
 ![harry](./10-17-2020.gif)
 
-<div align="center">
-  <img src="./magic.svg" alt="magic animation" width="680"/>
-</div>
 
 ![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=28&pause=1000&color=58A6FF&center=true&vCenter=true&width=600&lines=Oi%2C+eu+sou+o+Pedro+Bittencourt+%F0%9F%91%8B;Estudante+de+Engenharia+de+Software;Apaixonado+por+tecnologia)
 
